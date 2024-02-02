@@ -525,16 +525,13 @@ const movies = [
   Scrivi una funzione per svuotare la lista non ordinata con id "myList".
 */
 
-// let deleteFunction = function () {
+// let deleteFunction = () => {
 //   let ul2 = document.getElementById("myList");
 
-//   ul2.hasChildNodes();
-
-//   ul2.remove();
-//   console.log(ul2);
-//   return ul2;
+//   ul2.remove("li");
 // };
-// deleteFunction();
+
+deleteFunction();
 
 /* ESERCIZIO 26
   Scrivi una funzione per aggiungere ad ogni tag <tr> la classe CSS "test"
